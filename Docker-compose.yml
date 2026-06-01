@@ -10,11 +10,4 @@ services:
     ports:
       - "5000:5000"
 
-  db:
-    image: postgres
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: devnexus
-    ports:
-      - "5432:5432"
+  
